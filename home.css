@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Open+Sans:wght@300;800&family=Oswald:wght@700&family=Roboto:wght@500;900&display=swap");
+body {
+  background-color: rgb(233, 156, 169);
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 595px;
+}
+.container1 p {
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+}
+.container1 span {
+  color: rgb(255, 87, 87);
+}
+.container-2 {
+  height: 595px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-2 img {
+  height: 300px;
+  border-radius: 150px;
+}
+.main-container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 80vw;
+  height: 300px;
+}
+.main-container-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+}
+.main-container-p p {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 15px;
+}
+.container-3,
+.container-4,
+.container-5 {
+  height: 595px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "";
+}
+.main-container-3 {
+  content: "";
+  height: 590px;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.box img {
+  border-radius: 5px 5px 0px 0px;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.box-p {
+  width: 300px;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 15px;
+}
+.box {
+  height: 450px;
+  background-color: rgb(253, 127, 148);
+  border: solid 5px pink;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 375px) {
+  .container-3 {
+    margin-top: 200px;
+    margin-bottom: 700px;
+  }
+  .container-4 {
+    margin-top: 850px;
+  }
+  .container-5 {
+    margin-top: 900px;
+  }
+  #footer {
+    margin-top: 700px;
+  }
+  .box {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .container-3 {
+    margin-top: 200px;
+    margin-bottom: 700px;
+  }
+  .container-4 {
+    margin-top: 850px;
+  }
+  .container-5 {
+    margin-top: 900px;
+  }
+  #footer {
+    margin-top: 700px;
+  }
+  .box {
+    margin-bottom: 10px;
+  }
+}
